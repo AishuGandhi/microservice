@@ -1,0 +1,9 @@
+server:
+  port: 8088
+  
+#By Default Profile is Git Changing it to Native meaning finding configurations within application config server itself
+spring:
+  profiles:
+    active: native
+
+
